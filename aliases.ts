@@ -6,8 +6,8 @@ type car = {
 };
 
 let mySize: carSize = "45";
-let myCar: car = {
+let myCar: car;
+
+myCar = {
   name: "BMW",
 };
-
-myCar.color = "red";
