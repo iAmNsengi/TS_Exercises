@@ -6,3 +6,7 @@ console.log((x as string).length);
 let y: unknown;
 y = "nsengi";
 console.log((<string>y).length);
+
+// force casting
+let greeting = "hello";
+console.log((greeting as unknown as string).length);

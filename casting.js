@@ -4,3 +4,6 @@ console.log(x.length);
 var y;
 y = "nsengi";
 console.log(y.length);
+// force casting
+var greeting = "hello";
+console.log(greeting.length);
