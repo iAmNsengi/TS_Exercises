@@ -8,5 +8,7 @@ class GenericNumber<T> {
   }
 }
 
-const myGenericnumber = new GenericNumber<number>(0, (x, y) => x + y);
-console.log(myGenericnumber.add(2, 3));
+const myGenericnumber = new GenericNumber<string>('0', (x, y) => x + y);
+console.log(myGenericnumber.add('2', '3'));
+
+
