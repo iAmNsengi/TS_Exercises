@@ -8,3 +8,10 @@ function add(a: number, b: number, ...rest: number[]) {
 }
 
 console.log(add(12, 2, 2, 2, 2, 2));
+
+// function type aliases
+type Negate = (value: number) => number;
+
+const negation: Negate = (value) => {
+  return value;
+};
