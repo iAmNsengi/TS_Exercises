@@ -3,7 +3,6 @@
 // }
 // const person = new Person();
 // person.name = "Nsengi";
-
 // class Person {
 //   private name: string;
 //   public constructor(name: string) {
@@ -13,21 +12,16 @@
 //     return this.name;
 //   }
 // }
-
 // const person = new Person("nsengi");
 // console.log(person.getName());
-
-class Person {
-  private readonly name: string;
-
-  public constructor(name: string) {
-    this.name = name;
-  }
-
-  public getName(): string {
-    return this.name;
-  }
-}
-
-const person = new Person("Nsengi");
+var Person = /** @class */ (function () {
+    function Person(name) {
+        this.name = name;
+    }
+    Person.prototype.getName = function () {
+        return this.name;
+    };
+    return Person;
+}());
+var person = new Person("Nsengi");
 console.log(person.getName());
