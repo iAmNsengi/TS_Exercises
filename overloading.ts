@@ -5,3 +5,7 @@ function add(a: any, b: any): any {
 }
 
 console.log(add(2, 2));
+
+declare let h: string;
+h = "ok";
+let xc: Array<number> = [1,2,3,4]
