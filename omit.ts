@@ -7,3 +7,7 @@ export interface User {
   address?: string;
   city?: string;
 }
+
+type UserProfile = Omit<User, "password" | "email">;
+
+interface UserProfileInterface extends Omit<User, "password" | "email">{}
