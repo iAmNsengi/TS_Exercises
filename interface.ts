@@ -10,3 +10,6 @@ car = {
   name: "BMW",
   color: "red",
 };
+
+let xy: number = 7
+xy = undefined

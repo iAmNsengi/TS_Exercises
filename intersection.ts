@@ -7,3 +7,4 @@ interface B {
 }
 
 const me: A & B = { name: "Nsengi", age: 22 };
+

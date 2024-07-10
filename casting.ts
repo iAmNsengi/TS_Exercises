@@ -10,3 +10,6 @@ console.log((<string>y).length);
 // force casting
 let greeting = "hello";
 console.log((greeting as unknown as string).length);
+
+
+console.log((<number>4).toFixed);
