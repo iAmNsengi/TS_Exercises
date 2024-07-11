@@ -1,6 +1,6 @@
 import { User } from "../omit";
 
-let newUser: Required<User> = {
+let newUser: Readonly<User> = {
   age: 12,
   name: "nsengi",
   address: "kigali",
@@ -10,5 +10,4 @@ let newUser: Required<User> = {
   city: "999",
 };
 
-newUser.name = "Peter";
-// makes all properties required
+newUser.address = "gisenyi";
