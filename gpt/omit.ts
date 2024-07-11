@@ -1,8 +1,8 @@
 import { User } from "../omit";
 
-let newUser: Readonly<User> = {
+const newUser: Omit<User, "name"> = {
   age: 12,
-  name: "nsengi",
+  //   name: "nsengi",
   address: "kigali",
   email: "ok",
   password: "1234",
@@ -10,5 +10,4 @@ let newUser: Readonly<User> = {
   city: "999",
 };
 
-// this can't work
-// newUser.address = "gisenyi";
+// name want be assigned hence it was omitted
