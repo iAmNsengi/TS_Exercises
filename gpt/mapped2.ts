@@ -13,4 +13,4 @@ const myUser: Readonly<User> = {
 //   age: 12,
 };
 
-myUser.name = "ok";
+// myUser.name = "ok";

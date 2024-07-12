@@ -1,5 +1,7 @@
-let c: readonly [number, string] = [3, "string"];
+let c:  [number, string];
+c = [3, "string"];
 
-c.push("ok");
-
+c[0] = 4;
+c.pop()
+c.push('ok')
 console.log(c);
