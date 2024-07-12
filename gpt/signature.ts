@@ -6,3 +6,4 @@ let myPerson: myInterface = {
 };
 
 myPerson.age = 23;
+console.log(myPerson);
