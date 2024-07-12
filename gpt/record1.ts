@@ -14,3 +14,11 @@ const users: Test = {
   kagabo: "admin",
   peter: "user",
 };
+
+
+let yy: unknown = 'ok';
+
+yy = "ok"
+
+let xx  = (yy as number) + (yy as number)\[]
+
