@@ -7,3 +7,10 @@ const roles: UserRoles = {
   guest: "Guest",
   //   nsengi: "ok",
 };
+
+type Test = Record<string, Role>;
+
+const users: Test = {
+  kagabo: "admin",
+  peter: "user",
+};
